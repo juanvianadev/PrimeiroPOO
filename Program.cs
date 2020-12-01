@@ -10,13 +10,13 @@ namespace PrimeiroPOO
 
             objetoPersonagem1.nome = "Juanzada";
             objetoPersonagem1.idade = 17;
-            objetoPersonagem1.nome = "Força";
+            objetoPersonagem1.armadura = "Força";
 
             Personagem objetoPersonagem2 = new Personagem();
 
             objetoPersonagem1.nome = "Metaforando";
             objetoPersonagem1.idade = 999;
-            objetoPersonagem1.nome = "Mental";
+            objetoPersonagem1.armadura = "Mental";
 
 
         }
