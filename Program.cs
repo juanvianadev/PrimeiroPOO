@@ -14,11 +14,12 @@ namespace PrimeiroPOO
 
             Personagem objetoPersonagem2 = new Personagem();
 
-            objetoPersonagem1.nome = "Metaforando";
-            objetoPersonagem1.idade = 999;
-            objetoPersonagem1.armadura = "Mental";
+            objetoPersonagem2.nome = "Metaforando";
+            objetoPersonagem2.idade = 999;
+            objetoPersonagem2.armadura = "Mental";
 
-
+            Console.WriteLine($"Personagem 1 = {objetoPersonagem1.nome} - {objetoPersonagem1.Atacar()}");
+            Console.WriteLine($"Personagem 2 = {objetoPersonagem2.nome} - {objetoPersonagem2.Atacar()}");
         }
     }
 }
